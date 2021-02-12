@@ -1,0 +1,84 @@
+$navbar-mobile-height: 5rem;
+$navbar-width: 105px;
+$flyout-width-open:490px;
+
+
+
+.head-nav{
+    background: $brand-prime-1;
+    font-size: map-get($font-sizes, 'xs' );
+    color: $grey-lighter;
+span{
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    justify-content: space-between;
+    height: 54px;
+
+    li{
+        display: flex;
+        flex-flow: row nowrap;
+        list-style: none;
+    }
+
+    .head-nav_shop-info{
+        display: flex;
+        flex-flow: row-reverse nowrap;
+        align-items: center;
+        li{
+            margin-left: 20px;
+            i{
+                margin-right: 5px;
+            }
+        }
+    }
+    .head-nav_contact-us{
+        display: flex;
+        flex-flow: row-reverse nowrap;
+        align-items: center;
+        li{
+            margin-right: 20px;
+            i{
+                margin-left: 5px;
+            }
+        }
+    }
+}
+}
+
+
+.body-nav{
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    justify-content: space-between;
+    height: 100px;
+    color: $brand-third--2;
+    font-size: map-get($font-sizes, 'xs' );
+
+    li{
+        list-style: none;
+    }
+
+    .body-nav_shopping-nav-items, .body-nav_normal-nav-items{
+        display: flex;
+        flex-flow: row-reverse nowrap;
+        align-items: center;
+        li{
+            display: flex;
+            flex-flow: column-reverse nowrap;
+            align-items: center;
+            margin-right: 20px;
+            &:first-child{
+                margin-right: 0;
+            }
+            i{
+                margin-bottom: 5px;
+            }
+        }
+    }
+    .body-nav_logo{
+        display: flex;
+        flex-flow: row-reverse nowrap;
+        align-items: center;
+    }
+ 
+}

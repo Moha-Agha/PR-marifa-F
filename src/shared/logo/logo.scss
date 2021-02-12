@@ -1,0 +1,14 @@
+.logo-contener{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin-left: 55px;
+}
+.logo{
+    width: 95px;
+}
+.slogan{
+    margin-top: 5px;
+    color: $brand-third;
+    font-size: map-get($font-sizes , 'xxs' );
+}

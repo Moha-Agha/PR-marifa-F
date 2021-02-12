@@ -1,12 +1,21 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+import "./theme/App.scss";
+
+import Nav from './shared/nav/Nav';
+import FloatNav from './shared/floatNav/FloatNav';
+import Footer from './shared/footer/Footer';
+
+import Routing from './routing/Routing';
 
 const App = () => {
 
   return (
-<div  style={{margin:' 60px auto', width:'340px' , display:'block', textAlign:'center'}}>
-<h2> أهلا بك في موقع معرفة </h2>
-<h3> سننطلق قريباُ, نريدك ان تكون معنا على صفحة <a href="https://fb.me/www.Marifa.net">الفيسبوك</a> </h3>
-</div>
+  <Fragment>
+          <FloatNav/>
+          <Nav/>
+          <Routing/>
+          <Footer/>
+  </Fragment>
   );   
 };
 

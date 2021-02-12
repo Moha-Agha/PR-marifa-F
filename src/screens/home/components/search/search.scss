@@ -1,0 +1,38 @@
+.home_search{
+    background-color: $white;
+    width: 400px;
+    height: 42px;
+    color: $brand-prime-2;
+    position: relative;
+    display: flex;
+    flex-flow: row nowrap;
+    border-radius: $border-radius;
+    border: solid 1px rgba($brand-prime--2, 0.5);
+    overflow: hidden;
+    padding: 5px 0;
+
+    button{
+        width: 60px ;
+        height: 100%;
+        border-right: solid 1px rgba($brand-prime-2, 0.5);
+        i{
+            font-size: 30px;
+            color: $brand-prime;
+        }
+    }
+    input{
+        width: 340px ;
+        border: none;
+        direction: $direction;
+        padding: 0 10px;
+        font-size: map-get($font-sizes, 'xs' );
+
+        &::placeholder{
+            color:  rgba($brand-prime-2, 0.7);
+        }
+
+        &:focus{
+            outline: none;
+        }
+    }
+}

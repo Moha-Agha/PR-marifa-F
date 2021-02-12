@@ -1,0 +1,80 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap');
+
+$font-family: 'Almarai',Open Sans;
+$font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,'Liberation Mono', 'Courier New', monospace;
+
+$font-family-base:  $font-family, 'Helvetica Neue Light','Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+
+$font-default-color: $white;
+$body-color: $font-default-color;
+$text-muted: $grey;
+
+$emphasized-link-hover-darken-percentage: 15% !default;
+
+
+//website font
+*{
+    font-family: $font-family;
+}
+
+// calculate rem fontsizes based of 16px
+
+ $font-sizes-mobile: (
+   'input': 1.5rem,
+   'xxxl': 4.5rem,
+   'xxl': 2.4rem,
+   'xl': 1.8rem,
+   'l': 1.6rem,
+   'm': 1.5rem,
+   's': 1.3rem,
+   'xs': 1.2rem,
+   'xxs': 1rem,
+   'xxxs': 0.8rem,
+ );
+
+ $font-line-heights-mobile: (
+   'input': 2.4 / 1.5,
+   'xxxl': 3.2 / 3,
+   'xxl': 2.6 / 2.4,
+   'xl': 2.4 / 1.8,
+   'l': 2.4 / 1.6,
+   'm': 2.2 / 1.5,
+   's': 2 / 1.2,
+   'xs': 1.8 / 1.2,
+   'xxs': 1.4 / 1,
+   'xxxs': 1.2 / 0.8,
+ );
+
+ $font-sizes: (
+   'input': 1.5rem,
+   'xxxl': 6rem,
+   'xxl': 3.2rem,
+   'xl': 2.4rem,
+   'l': 2rem,
+   'm': 1.8rem,
+   's': 1.6rem,
+   'xs': 1.4rem,
+   'xxs': 1rem,
+   'xxxs': 0.8rem,
+ );
+
+ $font-line-heights: (
+   'input': 2.4 / 1.6,
+   'xxxl': 6.8 / 6,
+   'xxl': 4.2 / 3.6,
+   'xl': 3.2 / 2.4,
+   'l': 2.4 / 1.8,
+   'm': 2.2 / 1.5,
+   's': 2.2 / 1.5,
+   'xs': 1.8 / 1.2,
+   'xxs': 1.4 / 1,
+   'xxxs': 1.2 / 0.8,
+ );
+
+$font-weight-lighter: lighter !default;
+$font-weight-light: 300 !default;
+$font-weight-normal: 400 !default;
+$font-weight-bold: 700 !default;
+$font-weight-bolder: bolder !default;

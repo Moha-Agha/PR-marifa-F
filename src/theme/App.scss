@@ -1,0 +1,46 @@
+@import './reset.scss';
+
+@import './base.scss';
+@import './borders.scss';
+@import './buttons.scss';
+@import './colors.scss';
+@import './container.scss';
+@import './fonts.scss';
+@import './forms.scss';
+@import './icons.scss';
+@import './resets.scss';
+@import './shadows.scss';
+
+
+//shared components
+@import '../shared/bookCard/bookCard.scss';
+@import '../shared/breadcrumb/breadcrumb.scss';
+@import '../shared/floatNav/floatNav.scss';
+@import '../shared/footer/footer.scss';
+@import '../shared/logo/logo.scss';
+@import '../shared/nav/nav.scss';
+@import '../shared/pagination/pagination.scss';
+@import '../shared/preloader/preloader.scss';
+
+
+// screens components
+@import '../screens/author/author.scss';
+   // home components
+   @import '../screens/home/home.scss';
+   @import '../screens/home/components/heroImage/heroImage.scss';
+   @import '../screens/home/components/quote/quote.scss';
+   @import '../screens/home/components/search/search.scss';
+
+   // buyingSteps components
+   @import '../screens/buyingSteps/paymint/paymint.scss';
+
+   // others components
+   @import '../screens/others/error/error.scss';
+   @import '../screens/others/PageNotFound/pageNotFound.scss';
+   @import '../screens/others/weWillBack/weWillBack.scss';
+   @import '../screens/others/weWillStartSoon/weWillStartSoon.scss';
+
+@import '../screens/publisher/publisher.scss';
+@import '../screens/section/section.scss';
+@import '../screens/sections/sections.scss';
+@import '../screens/book/book.scss';

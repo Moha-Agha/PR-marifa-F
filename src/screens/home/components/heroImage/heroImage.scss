@@ -1,0 +1,17 @@
+.hero_container{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
+}
+.hero_image{
+    position:absolute;
+    height: 595px;
+    width: 100%;
+    top: 0;
+    z-index: -1;
+    background-image: url(../heroImage/heroImage.jpg);
+    background-color: $brand-prime;
+}

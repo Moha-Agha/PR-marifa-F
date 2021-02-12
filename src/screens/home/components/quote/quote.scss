@@ -1,0 +1,25 @@
+.quote_container{
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.quote{
+    font-size: map-get($font-sizes , 'xl');
+    font-weight: bold;
+    color: $brand-third-1;
+    max-width: 50%;
+    text-align: center;
+    line-height: 40px;
+}
+.quote-book{
+    font-size: map-get($font-sizes , 'xs');
+    color: $brand-third--2;
+    margin-top: 15px;
+    a{
+        color: $brand-secondary; 
+        padding-bottom: 3px;
+        border-bottom: 1px solid $brand-prime-2;
+    }
+}
