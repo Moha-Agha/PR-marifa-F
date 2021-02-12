@@ -24,7 +24,7 @@ const Nav = () => {
             <div className='body-nav container'>
             <div className='body-nav_shopping-nav-items'>
                 <li>{NAV_LOCA.myAccount}<i className="material-icons md-24">account_circle</i></li>
-                <li>{NAV_LOCA.myFavourite}<i className="material-icons md-24">favorite_border</i></li>
+                <li>{NAV_LOCA.myFavourite}<i className="material-icons md-24">favorite</i></li>
                 <li>{NAV_LOCA.myCart}<i className="material-icons md-24">local_grocery_store</i></li> 
                 <li>{NAV_LOCA.german}<i className="material-icons md-24">language</i></li> 
             </div>

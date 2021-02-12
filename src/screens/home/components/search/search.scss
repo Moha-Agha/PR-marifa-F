@@ -24,7 +24,7 @@
         width: 340px ;
         border: none;
         direction: $direction;
-        padding: 0 10px;
+        padding: 0 20px 0 0;
         font-size: map-get($font-sizes, 'xs' );
 
         &::placeholder{

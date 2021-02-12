@@ -1,0 +1,44 @@
+.sections-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 352px));
+    column-gap: 32px;
+    row-gap: 32px;
+}
+.section-card{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 350px;
+    height: 150px;
+    padding: 35px;
+    background-color: $white;
+    border-radius: $border-radius;
+    border: 0.001rem solid rgba($brand-prime, 0.1);
+    @include shadow-card; 
+    direction: $direction;
+}
+.section-card_info{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    color: $brand-prime;
+}
+.section-card_title{
+font-size: map-get($font-sizes , 'm' );
+font-weight: bold;
+margin-bottom: 10px;
+}
+.section-card_content{
+    font-size: map-get($font-sizes , 'xs' );
+    width: 150px;
+    line-height: 20px;
+    color: rgba($brand-prime, 0.7);
+    i{
+        color: $brand-secondary--2;
+        font-weight: bolder;
+    }
+}
+.section-card_icon{
+    font-size: 45px;
+    color: rgba($brand-prime, 0.1);
+}

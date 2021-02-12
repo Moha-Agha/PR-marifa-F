@@ -1,11 +1,12 @@
+
+ @mixin shadow-card() {
+       box-shadow: 0 0.5rem 1.5rem 0 rgba($brand-prime, 0.18);
+     }
+    
 // @mixin add-shadow-0() {
 //   box-shadow: none;
 // }
-
-// @mixin add-shadow-blue() {
-//   box-shadow: 0 0.5rem 1.5rem 0 rgba($brand-color, 0.18);
-// }
-
+    
 // @mixin add-shadow-xs() {
 //   box-shadow: 0 3px 10px 0 rgba($brand-color, 0.07);
 // }

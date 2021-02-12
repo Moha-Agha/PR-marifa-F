@@ -19,3 +19,7 @@ export const QUOTE_LOCA = {
 export const SEARCH_LOCA = {
                         "searchPlaceholder":"ابحث عن عنوان الكتاب أو أسم الكاتب هنا",
                         }
+export const SECTION_CARD_LOCA = {
+                        "thereIs":"يوجد بإنتظارك",
+                        "ToIncreaseYourKnowledge":"كتاب تزيد به معرفتك",
+                        }
