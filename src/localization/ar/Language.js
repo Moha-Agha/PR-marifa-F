@@ -21,5 +21,8 @@ export const SEARCH_LOCA = {
                         }
 export const SECTION_CARD_LOCA = {
                         "thereIs":"يوجد بإنتظارك",
-                        "ToIncreaseYourKnowledge":"كتاب تزيد به معرفتك",
+                        "book":"كتاب",
+                        "sections":"أقسام",
+                        "ToIncreaseYourKnowledge":" تزيد به معرفتك",
+                        "ToIncreaseYourKnowledges":" تزيد بها معرفتك",
                         }
