@@ -10,18 +10,24 @@
     justify-content: space-between;
     width: 350px;
     height: 150px;
-    padding: 35px;
+    padding: 0 35px 0 25px;
     background-color: $white;
     border-radius: $border-radius;
     border: 0.001rem solid rgba($brand-prime, 0.1);
     @include shadow-card; 
     direction: $direction;
 }
+.section-card-center{
+    justify-content: center; 
+}
 .section-card_info{
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
     color: $brand-prime;
+}
+.section-card_info-center{
+    text-align: center;
 }
 .section-card_title{
 font-size: map-get($font-sizes , 'm' );
@@ -36,9 +42,16 @@ margin-bottom: 10px;
     i{
         color: $brand-secondary--2;
         font-weight: bolder;
+        font-size: map-get($font-sizes , 's' );
+        padding: 0 2px;
     }
 }
 .section-card_icon{
-    font-size: 45px;
-    color: rgba($brand-prime, 0.1);
+    // font-size: 45px;
+    color: rgba($brand-prime, 0.15);
+    display: flex;
+    align-items: flex-end;
+    img{
+        opacity: 0.15;
+    }
 }
