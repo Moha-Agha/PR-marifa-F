@@ -26,3 +26,7 @@ export const SECTION_CARD_LOCA = {
                         "ToIncreaseYourKnowledge":" تزيد به معرفتك",
                         "ToIncreaseYourKnowledges":" تزيد بها معرفتك",
                         }
+export const HOME_PAGE_LOCA = {
+                        "VariousBooksH2":"نظرة سريعة لمجموعة كتب متنوعة تزيد بها معرفتك",
+                        "VariousBooksH3":"الكتب الجديدة, الأكثر شعبية والمهمة",
+                        }

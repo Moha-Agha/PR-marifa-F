@@ -1,0 +1,12 @@
+.various-book_title{
+    text-align: center;
+    h2{
+        font-size: map-get($font-sizes , 'm' );
+        color: $brand-prime;
+        margin-bottom: 10px;
+    }
+    h3{
+        font-size: map-get($font-sizes , 'm' );
+        color: rgba($brand-prime, 0.3);
+    }
+}

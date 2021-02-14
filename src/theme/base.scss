@@ -76,8 +76,8 @@
   }
   
   p {
-    margin: 0 0 1.5rem 0;
-    // @include set-fontsize('xxxs');
+    margin: 0 0 0.70rem 0;
+    font-size: map-get($font-sizes , 's' );
   }
   
   a {
@@ -93,7 +93,7 @@
     }
   }
 
-  $direction:'rtl';
+  $direction: rtl;
   
   button {
     -webkit-tap-highlight-color: transparent;

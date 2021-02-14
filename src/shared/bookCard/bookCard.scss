@@ -1,0 +1,41 @@
+.books-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(193px, 195px));
+    column-gap: 32px;
+    row-gap: 32px;
+    margin-bottom: 50px;
+    padding: 50px 0;
+
+}
+.book-card{
+    height: 370px;
+    direction: $direction;
+
+    .book-card_image{
+        border-radius: $border-radius ;
+        height: 280px;
+        background: $brand-third;
+        margin-bottom: 15px;
+    }
+    .book-card_title{
+        margin-bottom: 10px;
+        p{
+            font-size: map-get($font-sizes , 's' );
+            color: $brand-prime;
+            font-weight: bolder;
+        }
+        span{
+            font-size: map-get($font-sizes , 's' );
+            color: rgba($brand-prime,  0.6);
+        }
+    }
+    .book-card_footer{
+
+    }
+    .book-card_footer-stars{
+
+    }
+    .book-card_footer-price{
+
+    }
+}
