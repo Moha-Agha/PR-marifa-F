@@ -1,6 +1,10 @@
 
- @mixin shadow-card() {
-       box-shadow: 0 0.5rem 1.5rem 0 rgba($brand-prime, 0.18);
+ @mixin shadow-section-card() {
+       box-shadow: 0 6px 25px 0 rgba($brand-prime, 0.09);
+     }
+    
+ @mixin shadow-book-card() {
+       box-shadow: -2px 5px 20px 0 rgba($brand-prime, 0.10);
      }
     
 // @mixin add-shadow-0() {

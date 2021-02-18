@@ -1,6 +1,7 @@
 
 * {
     box-sizing: border-box;
+    font-size: map-get($font-sizes , 'xs' );
   }
   
   html {
@@ -35,7 +36,7 @@
     margin: 0 0 0.8rem 0;
     text-transform: uppercase;
     font-weight: bold;
-    // @include set-fontsize('xxxl');
+    font-size: map-get($font-sizes , 'xxl' );
   }
   
   h2,
@@ -43,7 +44,7 @@
     margin: 0 0 0.8rem 0;
     text-transform: uppercase;
     font-weight: bold;
-    // @include set-fontsize('xxl');
+    font-size: map-get($font-sizes , 'xl' );
   }
   
   h3,
@@ -51,33 +52,33 @@
     margin: 0 0 0.8rem 0;
     text-transform: uppercase;
     font-weight: bold;
-    // @include set-fontsize('xl');
+    font-size: map-get($font-sizes , 'm' );
   }
   
   h4,
   .h4 {
     margin: 0 0 0.8rem 0;
     font-weight: bold;
-    // @include set-fontsize('l');
+    font-size: map-get($font-sizes , 's' );
   }
   
   h5,
   .h5 {
     margin: 0 0 0.8rem 0;
     font-weight: bold;
-    // @include set-fontsize('m');
+    font-size: map-get($font-sizes , 'xs' );
   }
   
   h6,
   .h6 {
     margin: 0 0 0.8rem 0;
     font-weight: bold;
-    // @include set-fontsize('s');
+    font-size: map-get($font-sizes , 'xxs' );
   }
   
   p {
     margin: 0 0 0.70rem 0;
-    font-size: map-get($font-sizes , 's' );
+    font-size: map-get($font-sizes , 'xs' );
   }
   
   a {

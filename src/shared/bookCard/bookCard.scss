@@ -16,26 +16,61 @@
         height: 280px;
         background: $brand-third;
         margin-bottom: 15px;
+        overflow: hidden;
+        object-fit: cover;
+        border: 1px solid rgba($brand-prime,  0.05);
+        @include shadow-book-card();
     }
     .book-card_title{
         margin-bottom: 10px;
         p{
-            font-size: map-get($font-sizes , 's' );
+            font-size: map-get($font-sizes , 'xs' );
             color: $brand-prime;
             font-weight: bolder;
         }
         span{
-            font-size: map-get($font-sizes , 's' );
+            font-size: map-get($font-sizes , 'xs' );
             color: rgba($brand-prime,  0.6);
         }
     }
     .book-card_footer{
-
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        padding: 0 1px;
     }
     .book-card_footer-stars{
-
+        color: $brand-secondary;
+        i{  margin: 0 -1px; }
     }
     .book-card_footer-price{
+        display: flex;
+        flex-flow: row-reverse nowrap;
+        justify-content: space-between;
+        align-items: center;
 
+        .book-card_footer-price_normal{
+            position: relative;
+            width: 30px;
+            font-size: map-get($font-sizes , 's' );
+            color: $brand-prime;
+            font-weight: bolder;
+        }
+        .book-card_footer-price_normal-with-sale{
+            position: absolute;
+            top: -6px;
+            left: 16px;
+            display: block;
+            width: 3px;
+            height: 28px;
+            background: rgba($red, 0.7);
+            transform: rotate(-63deg);
+        }
+        .book-card_footer-price_sale{
+            font-size: map-get($font-sizes , 'm' );
+            color: $red;
+            font-weight: bolder;
+             margin-right: 2px;
+        }
     }
 }
