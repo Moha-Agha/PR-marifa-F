@@ -5,7 +5,7 @@ import Logo from '../logo/Logo';
 
 const Nav = () => {
     return (
-        <nav>
+        <nav id="nav">
             <div className='head-nav'>
                 <span className='container'>
                     <div className='head-nav_shop-info'>
